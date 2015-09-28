@@ -1,0 +1,22 @@
+{
+  "name": "phone-number-extractor",
+  "description": "Extract phone numbers from arbitrary text strings",
+  "version": "1.0.0",
+  "main": "index.js",
+  "files": [
+    "/lib"
+  ],
+  "author": {
+    "name": "Christian Rich",
+    "email": "christianrich.me@gmail.com"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "async": "1.4.2",
+    "lodash": "^3.10.1"
+  },
+  "devDependencies": {
+    "chai": "^3.2.0",
+    "mocha": "latest"
+  }
+}
