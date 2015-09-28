@@ -3,7 +3,7 @@
 Extract phone numbers from arbitrary text.
 
 Features:
-- Extract multiple phone number formats across different countries
+- Extract phone numbers using multiple country formats (Australia, USA and more)
 - Extract numbers with / without international prefixes (e.g 0061 and +61)
 - Extract almost any imaginable format of valid phone numbers
 - Extract obfuscated phone numbers
@@ -73,7 +73,9 @@ If you want to remove duplicates:
 ```
 ### TODO
 - Add support for more countries
-  
+- Add support for business numbers (prefix 1300, 1800)
+- Add support for number-to-character substitution (edge cases)
+
 ### Installation
 ```sh
 $ npm install phone-number-extractor
@@ -90,12 +92,13 @@ This software cannot capture every single combination imaginable. Especially num
 - O4!4.Ol2;341 (= 0414 012 341)
 
 In my experience very few users write their phone number this way. From a programming point of view it would be possible to cover for edge cases like above, but I have chosen not to.
+Business numbers prefix 1300 and 1800 are currently not supported.
 
 ### Issues, bug reports
-https://github.com/ChristianRich/phone-number-extractor/issues
+[https://github.com/ChristianRich/phone-number-extractor/issues](https://github.com/ChristianRich/phone-number-extractor/issues)
 
 ### Homepage
-https://github.com/ChristianRich/phone-number-extractor
+[https://github.com/ChristianRich/phone-number-extractor](https://github.com/ChristianRich/phone-number-extractor)
 
 ### License
 MIT
