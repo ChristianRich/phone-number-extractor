@@ -100,5 +100,8 @@ Business numbers prefix 1300 and 1800 are currently not supported.
 ### Homepage
 [https://github.com/ChristianRich/phone-number-extractor](https://github.com/ChristianRich/phone-number-extractor)
 
+### My blog
+[http://chrisrich.io](http://chrisrich.io)
+
 ### License
 MIT
