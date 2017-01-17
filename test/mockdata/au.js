@@ -1,5 +1,5 @@
 /**
- * Mock data for unit tests
+ * Mock data for unit tests (Australian phone numbers)
  */
 module.exports.realText1 = 'This awesome looking road bike, is Look’s top of the range 695 SR superlight carbon frame built up with America’s flagship Sram Red 10speed group set with Look carbon cranks and a choice of Mavic Ksyrium Elite low profile rims, or Zipp 404 full carbon rims! Advertised price is with the Mavic rims which come with a brand new Sram Red cassette and as new Continental Ultra Race tires. The seat is a Fizik’s saddle and the bars are Zipp Service Course SL’s. Comes with a Look bag with all the original paper work, spacers, tools etc. This is a superlight weight no nonsense race bike (the SR stands for Super Rigid) hand built in France! The frame size is 56 cm (Integrated seat post is adjustable!) and suitable for riders of 175 to 185cm or 5ft9 to 6ft1. Enquire on 0434 100200 after 6pm. Thanks.';
 module.exports.realText2 = 'niaaan elgrand , rider , this is a very cool van , it is low and quick ... i bought it for my son , but he bought another car instead !! V6 NISSAN super reliable bulletproof motor ... it is close to ready for rego , can be driven home on a permit , needs a small weld on the muffler , also seat covers ( there is a small tear in the passenger leather seat ), there is a very slight oil leak in the rocker cover gasket too , hardly noticable but it gets on the manifold and makes a slight fume (smell) . the front bar has been repaired (fibreglass) paint ready ... the suspension has is custom adjustable coil over shocks , well worth an inspection if you want this type of van ... air is cold , stereo sounds great , it has factory carpet covers , even the electric curtains are working !! not much to do to get a cool ride ... at $4900 it is a bargain ... please call 0266771102 ... 0422150394 or email me , offers considered , i can send more pics too .';
@@ -24,7 +24,7 @@ module.exports.mobile =
 
 module.exports.obfuscated =
     'I am an obfuscated phone number ***;*04;10.542.543;; and I do not wish to be found' +
-    'I am also someone trying to hide my number I am 5 feel tall drive a 2006 Toyota try and call **04** 10...541.451';
+    'I am also someone trying to hide my number I am 5 feet tall drive a 2006 Toyota try and call **04** 10...541.451';
 
 module.exports.mobileInternationalPrefix =
 

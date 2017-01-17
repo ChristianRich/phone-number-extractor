@@ -1,7 +1,7 @@
 {
   "name": "phone-number-extractor",
   "description": "Extract phone numbers from arbitrary text strings",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "main": "index.js",
   "files": [
     "index.js",
@@ -12,6 +12,8 @@
   "license": "MIT",
   "dependencies": {
     "async": "1.4.2",
+    "bluebird": "^3.4.7",
+    "google-libphonenumber": "^2.0.7",
     "lodash": "^3.10.1"
   },
   "devDependencies": {
