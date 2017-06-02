@@ -1,1 +1,1 @@
-module.exports = require('./lib/Extractor');
+module.exports = require('./lib/extractor');
