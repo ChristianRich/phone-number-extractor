@@ -12,13 +12,15 @@ Features:
 
 ### Background
 For a recent project I was asked to extract phone numbers from online adverts.
-At first it seemed like a trivial task, but I soon realised that users write phone numbers in so many different ways it will make your head spin!
+At first it seemed like a trivial task, but I soon realised that people write phone numbers in so many different ways it will make your head spin!
 After researching local classified sites I literally found every possible combination imaginable - including with / without international prefix, number-to-letter substitution, intended obfuscation, varying block size, brackets, spaces, dashes - you name it!
 Easy for humans to recognise, but pretty hard for a computer.
 
 My system attacks the problem by removing all non numeric characters from a string input, putting the numbers into an array, iterating through the array and applying regular expressions combined with specific detection rules.
 
 This module does a great job of capturing a vast array of various formats of valid phone numbers while avoiding false positives (not quite true for US phone numbers, please read the "limitations" section below).
+
+While this system largely works, it is not very sophisticated and has its limitations. A better approach would utilise machine learning and fancy algorithms, but since I didn't want this to turn into a science project and I don't know much about machine learning, I took this approach.
 
 ## Examples
 
