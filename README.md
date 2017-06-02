@@ -40,7 +40,7 @@ extractor.getCandidates(
 });
 ```
 
-### Extract phone number candidates from multiple string
+### Extract phone number candidates from multiple strings
 ```js
 const extractor = require('phone-number-extractor')
     , Promise = require('bluebird');
@@ -72,6 +72,8 @@ Promise.all(tasks)
 ```
 
 ### Format results using [GoogleLibPhoneNumber](https://github.com/googlei18n/libphonenumber)
+"GoogleLibPhoneNumber" is Google's common library for parsing, formatting and validating international phone numbers.
+
 ```js
 const extractor = require('phone-number-extractor');
 
