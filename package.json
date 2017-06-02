@@ -8,6 +8,10 @@
     "/lib",
     "/test"
   ],
+  "engines": {
+    "node": ">=6.4.0",
+    "npm": ">=3.0.0"
+  },
   "author": "Christian Rich <christianrich.me@gmail.com>",
   "license": "MIT",
   "dependencies": {
